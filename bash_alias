@@ -1,0 +1,15 @@
+# Rails 2
+alias ss="script/server"
+alias sc="script/console"
+alias sg="script/generate"
+alias sa="script/about"
+alias reset_db="rake db:drop && rake db:create && rake db:migrate && rake db:seed"
+
+# Rubygems
+alias fix_gemspec="ruby -p -i -e 'gsub(/\s\d{2}:\d{2}:\d{2}.\d{9}Z/, \"\")' $(gem env gemdir)/specifications/*.gemspec"
+
+# Ruby Bundler
+alias be="bundle exec"
+alias binit="bundle install --path vendor/bundle && bundle install --binstubs && echo -e \".bundle\n/bin\n/vendor/bundle/ruby\n\" >> .gitignore"
+
+alias webshare='python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"'

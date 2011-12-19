@@ -1,0 +1,34 @@
+[user]
+        name = Edgard Arakaki
+        email = edgard.arakaki@gmail.com
+[color]
+        diff = auto
+        branch = auto
+        status = auto
+[alias]
+        b = branch
+        co = checkout
+        ci = commit
+        d = diff -b
+        dc = diff -b --cached
+        ds = diff -b --stat
+        s = status
+        h = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[branch]
+        autosetupmerge = always
+        autosetuprebase = local
+[core]
+        pager = less
+        whitespace = trailing-space,space-before-tab
+        autocrlf = input
+        compression = 9
+[instaweb]
+        httpd = webrick
+[merge]
+        tool = opendiff
+[apply]
+        whitespace = fix
+[rerere]
+        enabled = 1
+[format]
+	pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset

@@ -1,0 +1,8 @@
+if [ -d /usr/local/etc/bash_completion.d ]; then
+  for i in /usr/local/etc/bash_completion.d/*; do
+    if [ -r $i ]; then
+      . $i
+    fi
+  done
+  unset i
+fi

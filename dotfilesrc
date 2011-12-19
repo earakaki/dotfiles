@@ -1,0 +1,9 @@
+[dotfiles]
+repository = ~/code/dotfiles
+ignore = [
+  '.git',
+  '.gitignore',
+  'README.md',
+  '*.swp']
+externals = {
+  '.bzr.log': '/dev/null'}

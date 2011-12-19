@@ -1,0 +1,47 @@
+set show-author = abbreviated
+set show-date = relative
+set show-refs = yes
+set show-rev-graph = yes
+set line-graphics = yes
+
+# Based on emacs zenburn color-theme
+color default                color108 color235
+color cursor                 default color238 bold
+color status                 color15 color236
+color title-focus            color151 color234 bold
+color title-blur             color187 color234
+color delimiter              color236 color210
+color line-number            color233 color109
+color date                   color115 color235
+color author                 color180 color235
+color mode                   color181 color235
+
+color palette-0              color108 default
+color palette-1              color181 default
+color palette-2              color187 default
+# color palette-3
+# color palette-4
+# color palette-5
+# color palette-6
+
+color graph-commit           color109 color235
+color main-head              color174 color235
+color main-remote            color223 color235
+color main-ref               color116 color235
+# color main-commit
+# color main-tracked
+# color main-tag
+# color main-local-tag
+
+
+# color stat-head
+# color stat-section
+# color stat-staged
+# color stat-unstaged
+# color stat-untracked
+
+# color blame-id
+
+# color tree-head
+# color tree-dir
+# color tree-file
