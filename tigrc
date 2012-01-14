@@ -16,15 +16,15 @@ color date                   color115 color235
 color author                 color180 color235
 color mode                   color181 color235
 
-color palette-0              color108 default
-color palette-1              color181 default
-color palette-2              color187 default
+#color palette-0              color108 default
+#color palette-1              color181 default
+#color palette-2              color187 default
 # color palette-3
 # color palette-4
 # color palette-5
 # color palette-6
 
-color graph-commit           color109 color235
+#color graph-commit           color109 color235
 color main-head              color174 color235
 color main-remote            color223 color235
 color main-ref               color116 color235

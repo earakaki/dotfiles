@@ -2,8 +2,6 @@ export ALTERNATE_EDITOR=emacs
 export EDITOR=emacsclient
 export VISUAL=emacsclient
 
-bind Space:magic-space
-
 # Based on http://opinionated-programmer.com/2011/01/colorful-bash-prompt-reflecting-git-status/
 function _git_prompt() {
     local git_status="`git status -unormal 2>&1`"
@@ -26,7 +24,7 @@ function _git_prompt() {
             branch="(`git describe --all --contains --abbrev=4 HEAD 2> /dev/null ||
                 echo HEAD`)"
         fi
-        echo -n '\[\e[0;'"$ansi"';40;1m\]'"$sign $branch"'\[\e[0m\] '
+        echo -n '\[\e[0;'"$ansi"'m\]'"$sign $branch"'\[\e[0m\] '
     fi
 }
 function _prompt_command() {
